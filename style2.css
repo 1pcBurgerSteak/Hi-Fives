@@ -1,0 +1,29 @@
+.logo{
+    width: 450px;
+    justify-content: center;
+    padding-top: 10px;
+    transition: transform 1s;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.icon {
+    width: 60px;
+    padding-top: 60px;
+    padding: 20px;
+    transition: all;
+    transition: transform .2s;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.icon:hover{
+    transform: scale(1.5);
+}
+body{
+    background-image: url(img/bg.png);
+    background-size: cover;
+}
